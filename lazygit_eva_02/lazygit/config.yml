@@ -1,0 +1,43 @@
+# https://github.com/jesseduffield/lazygit/blob/master/docs/Config.md
+gui:
+  nerdFontsVersion: "3"
+  timeFormat: "2006-01-02 15:04:05"
+  shortTimeFormat: "15:04:05"
+  # テーマカラー｜EVA-02
+  authorColors:
+    "kussy": "#006400"
+    "kushikushi5969": "#006400"
+    "*": "#d2691e"
+  branchColors:
+    "main": "#ffffff"
+    "master": "#ffffff"
+    "feat": "#008000"
+    "feature": "#008000"
+    "issue": "#008000"
+    "hotfix": "#ff0000"
+  theme:
+    # デフォルトテキスト
+    defaultFgColor:
+      - "#d2691e"
+
+    # 選択された行
+    selectedLineBgColor:
+      - "#000000"
+      - bold
+    # inactiveViewSelectedLineBgColor:
+
+    # セッションの枠線
+    inactiveBorderColor:
+      - "#b22222" # 非アクティブ
+    activeBorderColor:
+      - "#006400" # アクティブ
+      - bold
+
+    # 最下部のキーバインド関連テキスト
+    optionsTextColor:
+      - "#b22222"
+
+    cherryPickedCommitFgColor:
+      - "#b22222"
+    cherryPickedCommitBgColor:
+      - "#000000"
